@@ -1,1 +1,0 @@
-# lawyer-management-system-frontend
