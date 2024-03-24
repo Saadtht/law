@@ -1,3 +1,5 @@
+import Footer from "../footer";
+import Header from "../header";
 
 const Component = ({
   component: Component,
@@ -5,6 +7,8 @@ const Component = ({
   parts,
   footer = true,
   ads,
+  showheader,
+  showfooter,
   ...rest
 }) => {
 
@@ -18,7 +22,9 @@ const Component = ({
 
   return (
     <>
+      {showheader && <Header />}
       <RenderComponent {...rest} />
+      {showfooter && <Footer />}
     </>
   );
 };

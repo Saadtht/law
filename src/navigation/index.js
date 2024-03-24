@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import { CustomRoute } from "../components";
 import { 
+    Login,
     MainPage,
 } from "../pages";
 
@@ -16,8 +17,14 @@ const MainNavigator = () => {
                 <Route
                     path="/"
                     element={
-                    <CustomRoute path="/" component={MainPage} />
-                    }
+                    <CustomRoute path="/" showheader showfooter component={MainPage} />
+                }
+                />
+                <Route
+                    path="/login"
+                    element={
+                    <CustomRoute path="/login" component={Login} />
+                }
                 />
             </Routes>
         </Router>
