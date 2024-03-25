@@ -17,7 +17,7 @@ const MainNavigator = () => {
                 <Route
                     path="/"
                     element={
-                    <CustomRoute path="/" showheader showfooter component={MainPage} />
+                    <CustomRoute path="/" showheader  component={MainPage} />
                 }
                 />
                 <Route

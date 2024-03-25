@@ -1,9 +1,14 @@
 import React from 'react'
+import { About, Home, Offerings, Studies } from '../../components'
+
 
 function MainPage() {
   return (
     <div>
-        Hello world
+        <Home/>
+        <About/>
+        <Offerings/>
+        <Studies/>
     </div>
   )
 }

@@ -1,0 +1,10 @@
+.home {
+    height: 100vh;
+    background-color: rgb(57, 123, 145);
+    position: relative;
+  }
+  
+h1{
+    position: relative;
+    top: 200px;
+  }
