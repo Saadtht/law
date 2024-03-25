@@ -1,0 +1,30 @@
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card-title {
+    color: #333;
+  }
+  
+  .form-control {
+    border: 1px solid #ccc;
+  }
+  
+  .btn-primary {
+    background-color: #D8942F;
+    border-color: #D8942F;
+  }
+  
+  .btn-primary:hover {
+    background-color: #cca041;
+    border-color: #cca041;
+  }
+  

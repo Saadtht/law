@@ -42,7 +42,7 @@ function Header() {
 
           </div>
           <Link to="/login" className="button1">Login</Link> 
-          <Link to="#" className="button1">Inscription</Link> 
+          <Link to="/inscription" className="button1">Inscription</Link> 
           <button className="navbar-toggler " type="button" onClick={handleToggle} aria-expanded={isOffcanvasOpen}>
             <span className="navbar-toggler-icon"></span>
           </button>

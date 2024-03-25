@@ -8,6 +8,7 @@ import { CustomRoute } from "../components";
 import { 
     Login,
     MainPage,
+    SignupForm,
 } from "../pages";
 
 const MainNavigator = () => {
@@ -24,6 +25,12 @@ const MainNavigator = () => {
                     path="/login"
                     element={
                     <CustomRoute path="/login" component={Login} />
+                }
+                />
+                <Route
+                    path="/inscription"
+                    element={
+                    <CustomRoute path="/inscription" component={SignupForm} />
                 }
                 />
             </Routes>
