@@ -1,0 +1,50 @@
+.containerHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105vh;
+    
+    margin-bottom: 0 ;
+    color: #fff;
+    font-size: x-large;
+  
+  }
+  
+  
+  .text-container {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    margin: 0 6rem;
+    
+  }
+  
+  .image-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lawyer-image {
+    width: 80%;
+    height: auto;
+  }
+  .h2-acceuil{
+    margin-bottom: 30px;
+  }
+  
+  .button-link {
+    background-color: #D8942F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }

@@ -1,5 +1,4 @@
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -26,16 +25,19 @@ function Header() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a href="#home" className="nav-link mx-lg-2 active">Home</a> 
+                  <a href="#acceuil" className="nav-link mx-lg-2 active">Acceuil</a> 
                 </li>
                 <li className="nav-item">
-                  <a href="#about" className="nav-link mx-lg-2">About Us</a> 
+                  <a href="#services" className="nav-link mx-lg-2">Services</a> 
                 </li>
                 <li className="nav-item">
-                  <a href="#offerings" className="nav-link mx-lg-2">Our offerings</a> 
+                  <a href="#apropos" className="nav-link mx-lg-2">à propos</a> 
                 </li>
                 <li className="nav-item">
-                  <a href="#studies" className="nav-link mx-lg-2">Case studies</a> 
+                  <a href="#contact" className="nav-link mx-lg-2">Contactez nous</a> 
+                </li>
+                <li className="nav-item">
+                  <a href="#prqnous" className="nav-link mx-lg-2">Pourquoi nous</a> 
                 </li>
               </ul>
             </div>

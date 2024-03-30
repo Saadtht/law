@@ -1,0 +1,43 @@
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 80px;
+}
+
+.service-item {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.service-content {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.service-name {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.h1-serv {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #D8942F;
+}
+
+
+.h3-serv {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}

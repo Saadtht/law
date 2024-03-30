@@ -1,14 +1,15 @@
 import React from 'react'
-import { About, Home, Offerings, Studies } from '../../components'
+import {  Acceuil,  Apropos, FormContact, Prqnous, Services } from '../../components'
 
 
 function MainPage() {
   return (
     <div>
-        <Home/>
-        <About/>
-        <Offerings/>
-        <Studies/>
+        <Acceuil/>
+        <Services/>
+        <Apropos/>
+        <FormContact/>
+        <Prqnous/>
     </div>
   )
 }

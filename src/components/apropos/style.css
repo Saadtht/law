@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containeroff {
+  display: flex;
+  width: 100%;
+  min-height: 45vh;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+ 
+}
+.avis {
+  display: block;
+  width: 350px;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 1px 1px 10px #333;
+  border-radius: 15px;
+}
+.avis img {
+  width: 90px;
+  border-radius: 50%;
+  box-shadow:  1px 1px 10px #333;
+}
+.avis p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.offerings-title {
+  text-align: center;
+  margin-bottom: 20px; 
+  color: #D8942F;
+  ;
+}
+.offerings-subtitle {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}

@@ -1,7 +1,9 @@
 export { default as CustomRoute } from "./customroute"
 export { default as Footer } from "./footer"
 export { default as Header } from "./header"
-export { default as Home } from  "./home"
-export { default as Studies } from "./studies"
-export { default as Offerings } from "./offerings"
-export { default as About } from "./aboutus"
+export { default as Acceuil } from  "./acceuil"
+export { default as FormContact } from "./contact"
+export { default as Prqnous} from "./prqnous"
+export { default as Apropos } from "./apropos"
+export { default as Services } from "./services"
+
