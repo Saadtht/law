@@ -24,13 +24,13 @@ const MainNavigator = () => {
                 <Route
                     path="/login"
                     element={
-                    <CustomRoute path="/login" component={Login} />
+                    <CustomRoute path="/login" showheader component={Login} />
                 }
                 />
                 <Route
                     path="/inscription"
                     element={
-                    <CustomRoute path="/inscription" component={SignupForm} />
+                    <CustomRoute path="/inscription" showheader component={SignupForm} />
                 }
                 />
             </Routes>
