@@ -3,7 +3,7 @@ import "./style.css"
 function Prqnous() {
   return (
     <div>
-        <h3 className='h3-why'>Pourquoi Nous Choisir</h3>
+        <h1 className='h3-why'>Pourquoi Nous Choisir</h1>
     <div class="why-choose-us" id='prqnous'>
         <div class="item">
             <h3>Expertise Professionnelle</h3>
@@ -25,10 +25,12 @@ function Prqnous() {
             <h3>Résultats Probants</h3>
             <p>Historique de succès démontré.</p>
         </div>
+        
         <div class="item">
             <h3>Innovation et Technologie</h3>
             <p>Utilisation de la technologie de pointe pour une meilleure efficacité.</p>
         </div>
+        
     </div>
     </div>
   )

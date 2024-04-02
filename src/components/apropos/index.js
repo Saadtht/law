@@ -7,7 +7,7 @@ import StarRatings from 'react-star-ratings';
 
 function Apropos() {
   return (
-    <div id='apropos'>
+    <div id='apropos' className='offerings-wrapper'>
       <h3 className="offerings-subtitle">Qui Nous Fait Confiance</h3>
       <h1 className="offerings-title">Rejoignez nos clients satisfaits.</h1>
       <div  className='containeroff'>

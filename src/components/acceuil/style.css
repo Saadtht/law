@@ -1,9 +1,13 @@
+.acceuil-wrapper{
+  height: 850px;
+}
+
+
 .containerHome {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 105vh;
-    
+    height: inherit;
     margin-bottom: 0 ;
     color: #fff;
     font-size: x-large;
@@ -48,3 +52,42 @@
     font-size: 16px;
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 767px) {
+    .containerHome {
+      flex-direction: column; 
+      height: auto; 
+      padding: 20px;
+      background-color: rgb(77, 153, 143); 
+      background-image: none;
+    }
+  
+    .text-container {
+      width: 100%; 
+      margin: 100px; 
+      text-align: center; 
+      padding: 0; 
+    }
+  
+    .text-container p {
+      margin-bottom: 20px; 
+    }
+  
+    .image-container {
+      display: none; 
+    }
+    .h2acceuil{
+      margin-top: 110px;
+    }
+    .button-cont{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .text-container {
+      margin: 0 3rem;
+    }
+  }
+  
+

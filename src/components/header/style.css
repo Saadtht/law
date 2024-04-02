@@ -36,22 +36,92 @@
     color: #000;
 }
 @media (min-width:991px){
-.nav-link::before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 2px;
-    background-color: #D8942F  ;
-    visibility: hidden;
-    transition: 0.3s ease-in-out;
-}
-.nav-link:hover::before , .nav-link.active::before{
-    width: 100%;
-    visibility: visible;
-}
-}
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #D8942F  ;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-link:hover::before , .nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+    }
 
+/* style.css */
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text {
+    margin-left: 10px; /* Ajustez selon votre besoin */
+  }
+  
+  .logo-text h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #D8942F;
+    
+  }
+  
+  .logo-text p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.7;
+  }
+  
 
+  @media (max-width: 767px) {
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      height: auto;
+      margin: 20px;
+      border-radius: 16px;
+      padding: 0.5rem;
+    }
+  
+    .navbar-toggler {
+      order: 3; /* Push the toggler to the end */
+      margin-left: auto; /* Align to the right */
+    }
+  
+    .navbar-collapse {
+      flex-basis: 100%;
+      order: 2; /* Push the collapse content to the middle */
+      display: none; /* Hide the collapse content initially */
+    }
+  
+    .navbar-expand-lg .navbar-nav {
+      flex-direction: column;
+      padding-left: 0; /* Remove default padding */
+      margin-top: 10px; /* Adjust spacing between links */
+    }
+  
+    .navbar-toggler-icon {
+      display: block; /* Ensure the toggler icon is visible */
+    }
+  
+    .show {
+      display: flex !important; /* Ensure the collapse content is visible when toggled */
+    }
+  
+    .offcanvas-body {
+      padding: 0; /* Remove default padding */
+    }
+  
+    .button1 {
+      margin-right: 0; /* Adjust margin for buttons */
+      margin-top: 10px; /* Add spacing between buttons */
+    }
+  }

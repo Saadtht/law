@@ -1,11 +1,34 @@
 .contact {
-    margin-top: 100px ;
-    height: 60vh;
-    
-  }
+  margin-top: 100px ;
+  
+}
 
 .h1-title{
-  color: #D8942F;
-  text-align: center;
-  margin-bottom: 40px;
+color: #D8942F;
+text-align: center;
+margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 767px) {
+  .contact {
+    margin-top: 50px; 
+  }
+
+  .contact-form {
+    height: auto; 
+  }
+
+  .form-group {
+    height: auto; 
+    margin-bottom: 20px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contact {
+    margin-top: 80px; 
+  }
+}
+

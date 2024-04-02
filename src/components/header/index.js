@@ -1,6 +1,5 @@
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from "react";
+// Header.js
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './style.css';
 
@@ -15,7 +14,13 @@ function Header() {
     <div>
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container-fluid">
-          <Link to="/" className="navbar-brand me-auto"><img src="./logo.png" width={50} alt="Logo" /></Link> 
+          <Link to="/" className="navbar-brand me-auto logo-container">
+            <img src="./logo.png" width={50} alt="Logo" />
+            <div className="logo-text">
+              <h2>Lawyers</h2>
+              <p>Services legales</p>
+            </div>
+          </Link> 
 
           <div className={`offcanvas offcanvas-end ${isOffcanvasOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div className="offcanvas-header">
@@ -41,10 +46,11 @@ function Header() {
                 </li>
               </ul>
             </div>
-
           </div>
+          
           <Link to="/login" className="button1">Login</Link> 
           <Link to="/inscription" className="button1">Inscription</Link> 
+          
           <button className="navbar-toggler " type="button" onClick={handleToggle} aria-expanded={isOffcanvasOpen}>
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -54,4 +60,4 @@ function Header() {
   );
 }
 
-export default Header
+export default Header;

@@ -1,10 +1,10 @@
 import React from 'react'
 import {  Acceuil,  Apropos, FormContact, Prqnous, Services } from '../../components'
-
+import './style.css'
 
 function MainPage() {
   return (
-    <div>
+    <div className='main-page'>
         <Acceuil/>
         <Services/>
         <Apropos/>

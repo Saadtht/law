@@ -10,7 +10,7 @@ function FormContact() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6"> 
-            <form className="contact-form" style={{ height: '400px', backgroundColor: '#f8f9fa', padding: '20px', borderRadius: '10px' }}>
+            <form className="contact-form" style={{backgroundColor: '#f8f9fa', padding: '20px', borderRadius: '10px' }}>
               <div className="form-group" style={{ height: '100px' }}> 
                 <label htmlFor="name">Name:</label>
                 <input type="text" className="form-control" id="name" name="name" />
