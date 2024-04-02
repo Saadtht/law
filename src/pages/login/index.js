@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css'; 
 
 function LoginPage() {
+
+  const [emailVal, setEmailVal] = useState()
+  const remplirEmail = (e) => {
+    setEmailVal(e.target.value)
+  }  
+  console.log(emailVal)
   return (
     <div className="login-page d-flex justify-content-center align-items-center">
       <div className="container">
@@ -13,7 +19,7 @@ function LoginPage() {
                 <form>
                   <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email address</label>
-                    <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
+                    <input type="email" className="form-control" name="email" onChange={(e) => remplirEmail(e)} value={emailVal} id="email" aria-describedby="emailHelp" />
                   </div>
                   <div className="mb-3">
                     <label htmlFor="password" className="form-label">Password</label>

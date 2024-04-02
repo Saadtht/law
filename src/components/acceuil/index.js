@@ -7,7 +7,7 @@ function Acceuil() {
     <div className="acceuil-wrapper">
       <div id="acceuil" className="containerHome"
         style={{
-          backgroundImage: url({backHome}),
+          backgroundImage: `url(${backHome})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
