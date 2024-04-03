@@ -3,10 +3,16 @@ import './style.css'
 
 function Footer() {
   return (
-    <div>
-        footer
-    </div>
-  )
+    <footer className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <p className="text-center">&copy; 2024 Oneclick. </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

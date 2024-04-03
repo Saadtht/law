@@ -30,7 +30,7 @@ const services = [
 
 function Services() {
   return (
-    <div id='services'>
+    <div id='services' className='services-wrapper'>
       <h3 className="h3-serv">Nos services</h3>
       <h1 className="h1-serv">Explorez nos services pour une solution juridique efficace</h1>
       <ul className="service-list">

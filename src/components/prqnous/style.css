@@ -1,3 +1,8 @@
+.why-wrapper{
+    display: flex;
+  flex-direction: column;
+  gap: 35px ;
+}
 .why-choose-us {
     display: flex;
     flex-wrap: wrap;
@@ -39,23 +44,18 @@
 }
 
 .h3-why {
-    margin-top: 30px;
     text-align: center;
-
-    margin-bottom: 30px;
     color: #D8942F
 }
 
 
 
 @media screen and (max-width: 767px) {
-    .h3-why{
-        margin-top: 300px;
-    }
+    
     .why-choose-us .item {
       flex-basis: calc(100% - 20px);
       margin-right: 0;
-      margin-left: 0;
+      margin-left: 0 !important;
     }
   
     .why-choose-us .item:nth-child(odd) {

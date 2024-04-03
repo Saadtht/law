@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 function Prqnous() {
   return (
-    <div>
+    <div className='why-wrapper'>
         <h1 className='h3-why'>Pourquoi Nous Choisir</h1>
     <div class="why-choose-us" id='prqnous'>
         <div class="item">

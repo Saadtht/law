@@ -1,5 +1,5 @@
 .acceuil-wrapper{
-  height: 850px;
+  height: 990px;
 }
 
 
@@ -54,12 +54,15 @@
   }
 
   @media only screen and (max-width: 767px) {
+    .acceuil-wrapper{
+      height: 690px;
+    }
     .containerHome {
       flex-direction: column; 
       height: auto; 
       padding: 20px;
       background-color: rgb(77, 153, 143); 
-      background-image: none;
+      background-image: none !important;
     }
   
     .text-container {

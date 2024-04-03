@@ -18,19 +18,19 @@ const MainNavigator = () => {
                 <Route
                     path="/"
                     element={
-                    <CustomRoute path="/" showheader  component={MainPage} />
+                    <CustomRoute path="/" showheader showfooter  component={MainPage} />
                 }
                 />
                 <Route
                     path="/login"
                     element={
-                    <CustomRoute path="/login" showheader component={Login} />
+                    <CustomRoute path="/login" showheader showfooter component={Login} />
                 }
                 />
                 <Route
                     path="/inscription"
                     element={
-                    <CustomRoute path="/inscription" showheader component={SignupForm} />
+                    <CustomRoute path="/inscription" showheader showfooter component={SignupForm} />
                 }
                 />
             </Routes>
