@@ -23,7 +23,7 @@ function FormContact() {
                 <label htmlFor="message">Message :</label>
                 <textarea className="form-control" id="message" name="message" rows="3" />
               </div>
-              <button type="submit" className="btn btn-primary" style={{ marginTop: '10px' }}>Envoyer</button> 
+              <button type="submit" className=" btn-primary" style={{ marginTop: '10px' }}>Envoyer</button> 
             </form>
           </div>
         </div>

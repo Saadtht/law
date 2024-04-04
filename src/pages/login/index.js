@@ -1,41 +1,39 @@
-import React, { useState } from 'react';
-import './style.css'; 
+import React, { useState } from "react";
+import './style.css';
+import { loginimg} from "../../assets/images";
+import { Link } from "react-router-dom";
 
-function LoginPage() {
-
-  const [emailVal, setEmailVal] = useState()
+export default function Sect1() {
+  const [emailVal, setEmailVal] = useState("")
   const remplirEmail = (e) => {
     setEmailVal(e.target.value)
-  }  
+  }
   console.log(emailVal)
   return (
-    <div className="login-page d-flex justify-content-center align-items-center">
+    <div className="login-form" >
+      <h1>Bienvenue !</h1>
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-md-6">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title text-center mb-4">Login</h5>
-                <form>
-                  <div className="mb-3">
-                    <label htmlFor="email" className="form-label">Email address</label>
-                    <input type="email" className="form-control" name="email" onChange={(e) => remplirEmail(e)} value={emailVal} id="email" aria-describedby="emailHelp" />
-                  </div>
-                  <div className="mb-3">
-                    <label htmlFor="password" className="form-label">Password</label>
-                    <input type="password" className="form-control" id="password" />
-                  </div>
-                  <div className="text-center">
-                    <button type="submit" className="btn btn-primary">Login</button>
-                  </div>
-                </form>
-              </div>
-            </div>
+        <div className="main">
+          <div className="content">
+            <h2>Connexion</h2>
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Email" required />
+              <input type="password" name="mdp" placeholder="Mot de passe" required />
+              <button className="btn" type="submit">
+                Connecter
+              </button>
+
+
+            </form>
+            <p className="account">Vous n'avez pas de compte ? <Link to="/inscription">Inscrivez-vous</Link></p>
+          </div>
+          <div className="form-img">
+            <img src={loginimg} alt="" />
+
           </div>
         </div>
       </div>
-    </div>
-  );
-}
 
-export default LoginPage;
+    </div>
+  )
+}

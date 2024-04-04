@@ -69,6 +69,7 @@
       width: 100%; 
       margin: 100px; 
       text-align: center; 
+      align-items: center;
       padding: 0; 
     }
   

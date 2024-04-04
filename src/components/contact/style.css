@@ -12,10 +12,10 @@ text-align: center;
 }
 
 .contact-form {
-  background-color: #fff; /* Couleur de fond blanche */
-  padding: 30px; /* Augmentez l'espacement intérieur */
-  border-radius: 20px; /* Coins arrondis */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  background-color: #fff; 
+  padding: 30px; 
+  border-radius: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   border: 1px solid ;
 }
 
@@ -25,17 +25,19 @@ text-align: center;
 }
 
 .form-control {
-  border: 1px solid #ccc; /* Bordure légère */
+  border: 1px solid #ccc; 
 }
 
 .btn-primary {
-  background-color: #007bff; /* Couleur de fond bleue */
-  border-color: #007bff; /* Couleur de la bordure bleue */
+  background-color: #D8942F; 
+  padding: 10px 11px;
+  border: none;
+  color: #fff;
+
 }
 
 .btn-primary:hover {
-  background-color: #0056b3; /* Couleur de fond bleu foncé au survol */
-  border-color: #0056b3; /* Couleur de la bordure bleu foncé au survol */
+  background-color: #a57834 ; 
 }
 
 @media only screen and (max-width: 767px) {

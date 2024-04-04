@@ -10,4 +10,7 @@ export {default as Contrat} from "./services/contrat.png";
 export {default as Mediation} from "./services/mediation.png";
 export {default as Planification} from "./services/planification.png";
 export {default as Representation} from "./services/representation.png";
+export {default as loginimg} from "./login/login.png"
+export {default as inscrpimg} from "./inscription/inscrip.png"
+
 
