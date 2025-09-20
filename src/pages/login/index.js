@@ -4,10 +4,10 @@ import { loginimg} from "../../assets/images";
 import { Link } from "react-router-dom";
 
 export default function Sect1() {
-  const [emailVal, setEmailVal] = useState("")
-  const remplirEmail = (e) => {
-    setEmailVal(e.target.value)
-  }
+  const [emailVal] = useState("")
+  // const remplirEmail = (e) => {
+  //   setEmailVal(e.target.value)
+  // }
   console.log(emailVal)
   return (
     <div className="login-form" >

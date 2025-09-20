@@ -47,7 +47,7 @@ function Apropos() {
         </div>
         
         <div className='avis' alt='views'>
-        <img src={Personne2} />
+        <img src={Personne2} alt="Juliette Blanc" />
           <h3>Juliette Blanc</h3>
           <p>Étudiante en droit international</p>
           <StarRatings
@@ -63,7 +63,7 @@ function Apropos() {
           </p>
         </div>
         <div className='avis' alt='views'>
-        <img src={Personne1} />
+        <img src={Personne1} alt="Nicolas Durand" />
           <h3>Nicolas Durand</h3>
           <p>Avocat en droit du travail</p>
           <StarRatings

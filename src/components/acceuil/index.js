@@ -33,7 +33,7 @@ function Acceuil() {
           </div>
         </div>
         <div className="image-container">
-          <img src={Lawyerimg} alt="lawyer-image" className="lawyer-image" />
+          <img src={Lawyerimg} alt="Avocat professionnel" className="lawyer-image" />
         </div>
       </div>
     </div>
